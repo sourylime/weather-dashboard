@@ -1,0 +1,35 @@
+/* styles.css */
+#forecastWrapper {
+    display: block;
+    margin-left: 10%;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.forecastDay {
+    width: 35%;
+    margin: 5%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecastDay p {
+    margin: 0;
+}
+
+#previousSearches {
+    /* Your styling rules here */
+    margin-top: 10px;
+    margin-left: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.previousSearch {
+    /* Styling for each individual previous search item */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
